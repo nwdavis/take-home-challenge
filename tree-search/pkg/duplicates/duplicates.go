@@ -11,15 +11,6 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-type NaryTreeNode struct {
-	Val int
-}
-
-type NaryNodeAndLevel struct {
-	Node  NaryTreeNode
-	Level int
-}
-
 type NodeAndLevel struct {
 	Node  *TreeNode
 	Level int
